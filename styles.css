@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Nunito', sans-serif;
+  ;
+  background-color: #fdf7f2;
+}
+
+.language-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.language-switch img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.language-switch img:hover {
+  transform: scale(1.1);
+}
+
+/* Main wrapper */
+.hero {
+  background: linear-gradient(to right, #e0be9a 40%, #fdf7f2 40%);
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+}
+
+/* Inner container */
+.hero-inner {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Profile card */
+.profile-card {
+  background-color: #F4ECE6;
+  padding: 40px 30px;
+  border-radius: 12px;
+  float: left;
+  margin-left: 13vh;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  z-index: 2;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-card h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.profile-card hr {
+  width: 40%;
+  margin: 12px auto;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Right text */
+.text-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-section h2 {
+  font-size: 48px;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.text-section h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 24px;
+  color: #000;
+  line-height: 1.5em;
+  margin-top: 0.3em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  color: #000;
+}
+
+h3 {
+  font-size: 14px;
+  color: #000;
+}
+
+
+
+main {
+  padding: 20px;
+}
+
+#projects {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#projects h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #e0be9a;
+  padding-bottom: 10px;
+}
+
+/* Two columns side by side */
+.projects-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.project-column {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-column h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #111;
+}
+
+/* Each project box */
+.project-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.project-info {
+  padding: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-info h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.year-role {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+  text-align: justify;
+}
+
+.project-card img {
+  width: 40%;
+  object-fit: cover;
+  height: auto;
+  border-left: 1px solid #eee;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 900px) {
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .text-section {
+    padding: 0;
+  }
+
+  .text-section h2 {
+    text-align: center;
+  }
+
+  .text-section h3,
+  .text-section p {
+    text-align: center;
+  }
+
+  .projects-columns {
+    flex-direction: column;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-info,
+  .project-card img {
+    width: 100%;
+  }
+
+  .project-card img {
+    border-left: none;
+    border-top: 1px solid #eee;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0be9a;
+  font-size: 14px;
+}
