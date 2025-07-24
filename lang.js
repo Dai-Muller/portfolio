@@ -9,7 +9,7 @@ const translations = {
         },
         projects: {
             "proj1-title": "Little Loops Crafts",
-            "proj1-role": "2025 – Freelancer",
+            "proj1-role": "Hobby",
             "proj1-desc": "Developed as part of a learning journey in HTML, CSS, and JavaScript, this project showcased handcrafted products from the brand Little Loops Crafts. The page was fully designed and coded to present amigurumi, crochet, and other handmade items, focusing on visual identity, responsive layout, and product display. It also included light JavaScript interactions to enhance the user experience, combining technical practice with the goal of promoting the brand’s artisanal creations.",
             "proj2-title": "Müller Informática",
             "proj2-role": "2025 – Freelancer",
@@ -67,7 +67,7 @@ const translations = {
         },
         projects: {
             "proj1-title": "Little Loops Crafts",
-            "proj1-role": "2025 – Freelancer",
+            "proj1-role": "Hobby",
             "proj1-desc": "Dieses Projekt wurde als Teil einer Lernreise in HTML, CSS und JavaScript entwickelt und stellte handgefertigte Produkte der Marke Little Loops Crafts vor. Die Seite wurde vollständig entworfen und kodiert, um Amigurumi, Häkelarbeiten und andere handgefertigte Produkte zu präsentieren, wobei der Schwerpunkt auf visueller Identität, responsivem Layout und Produktdarstellung lag. Die Seite enthielt auch leichte JavaScript-Interaktionen, um das Benutzererlebnis zu verbessern, und kombinierte technische Verfahren mit dem Ziel, die handwerklichen Kreationen der Marke zu fördern.",
             "proj2-title": "Müller Informática",
             "proj2-role": "2025 – Freelancer",
@@ -128,7 +128,7 @@ const translations = {
         },
         projects: {
             "proj1-title": "Little Loops Crafts",
-            "proj1-role": "2025 – Freelancer",
+            "proj1-role": "Hobby",
             "proj1-desc": "Desenvolvido como parte de uma jornada de aprendizado em HTML, CSS e JavaScript, esse projeto apresenta produtos artesanais da marca Little Loops Crafts. A página foi totalmente projetada e codificada para apresentar amigurumi, crochê e outros itens feitos à mão, com foco em identidade visual, layout responsivo e exibição de produtos. Também incluiu interações leves em JavaScript para aprimorar a experiência do usuário, combinando a prática técnica com o objetivo de promover as criações artesanais da marca.",
             "proj2-title": "Müller Informática",
             "proj2-role": "2025 – Freelancer",
