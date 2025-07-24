@@ -230,6 +230,13 @@ h3 {
   border-left: 1px solid #eee;
 }
 
+.project-card a {
+  width: 40%;
+  object-fit: cover;
+  height: auto;
+  border-left: 1px solid #eee;
+}
+
 /* Responsive: stack columns on small screens */
 @media (max-width: 900px) {
  .hero {
